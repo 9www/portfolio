@@ -1,0 +1,104 @@
+.about-container {
+    color: $primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 200px;
+
+    .left-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 50%;
+
+        .self-image {
+            width: 500px;
+            height: auto;
+            border-radius: 10px 0px 10px 0;
+        }
+    }
+
+    .right-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 50%;
+        padding-left: 32px;
+        .title {
+            display: inline-block;
+            font-weight: bold;
+            font-size: 35px;
+            margin-top: 16px;
+            letter-spacing: 2px;
+            padding-bottom: 30px;
+
+            .name {
+                display: inline-block;
+                color: $dark-color;
+            }
+        }
+
+        .description-container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-direction: row;
+            width: 550px;
+            height: 60px;
+            background-color: $light-color;
+            margin: 5px 0px;
+            padding-left: 15px;
+            font-size: 14px;
+
+            &:hover {
+                border: 1px solid $secondary-color;
+                padding-left: 35px;
+                transition-duration: 0.3s;
+
+                .description {
+                    display: none;
+                }
+
+                .description-selected {
+                    display: block;
+                    color: $primary-color;
+                    letter-spacing: 5px;
+                }
+            }
+
+            .description {
+                color: $primary-color;
+                letter-spacing: 5px;
+            }
+
+            .description-selected {
+                display: none;
+            }
+        }
+
+        .description-text-container {
+            padding: 20px 10px 0 10px;
+            width: 550px;
+            .description-text {
+                text-align: justify;
+                letter-spacing: 1px;
+                line-height: 22px;
+
+                .description-main-point {
+                    color: $dark-color;
+                }
+                .description-link {
+                    font-weight: bold;
+                    //text-decoration: underline;
+                }
+            }
+            .description-bio {
+                padding-top: 10px;
+                text-align: justify;
+                letter-spacing: 1px;
+                line-height: 22px;
+            }
+        }
+    }
+}

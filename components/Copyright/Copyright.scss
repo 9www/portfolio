@@ -1,0 +1,21 @@
+.copyright-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 100px;
+    .copyright-link-container {
+        .copyright-link {
+            padding: 0 10px;
+            .company-logo{
+                width: 22px;
+                height: auto;
+            }
+        }
+    }
+    .copyright-text {
+        color: $black-color;
+        margin: 20px 0;
+    }
+}

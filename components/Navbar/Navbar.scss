@@ -1,0 +1,115 @@
+.navbar-container {
+    position: fixed; /* <-- Look here */
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    filter: drop-shadow(0 1px 8px rgba(0, 0, 0, 0.3));
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+        padding: 0px 10%;
+        align-items: center;
+        background: none;
+        transition-duration: 0.3s;
+        background: $light-color;
+        
+        &:hover {
+            transition-duration: 0.3s;
+        }
+
+        .logo {
+            height: 30px;
+            line-height: 30px;
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: $primary-color;
+        }
+
+        .nav-link {
+            list-style: none;
+            line-height: 30px;
+            font-weight: bold;
+            height: 30px;
+
+            .text-link {
+                display: inline-block;
+            }
+
+            .link {
+                display: inline-block;
+                padding: 0px 20px;
+                color: $primary-color;
+            }
+
+            .link-selected {
+                display: inline-block;
+                padding: 0px 20px;
+                color: $tertiary-color;
+            }
+
+            .icon-link-container {
+                display: none;
+
+                .icon-link {
+                }
+            }
+        }
+    }
+}
+// @media screen and (max-width: 758px) {
+//     .navbar-container {
+//         bottom: 0;
+//         .navbar {
+//             padding: 0%;
+//             .logo {
+//                 position: absolute;
+//                 top: 0;
+//                 left: 50%;
+//                 transform: translate(-50%, -50%);
+//                 padding-top: 75px;
+//                 height: 30px;
+//                 line-height: 30px;
+//                 font-weight: bold;
+//                 font-size: 1.5rem;
+//             }
+
+//             .nav-link {
+//                 position: absolute;
+//                 bottom: 0;
+//                 list-style: none;
+//                 line-height: 30px;
+//                 font-weight: bold;
+//                 height: 70px;
+//                 width: 100%;
+//                 background: $light-color;
+//                 .text-link {
+//                     display: none;
+//                 }
+//                 .link {
+//                     color: $primary-color;
+//                     width: 33%;
+//                     height: 100%;
+//                 }
+//                 .link-selected {
+//                     color: $tertiary-color;
+//                     width: 33%;
+//                     height: 100%;
+//                 }
+
+//                 .icon-link-container {
+//                     display: block;
+//                     margin-top: 25px;
+//                     .icon-link {
+//                         display: block;
+//                         margin: 0 auto;
+//                         padding: auto;
+//                         width: auto;
+//                         height: auto;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
