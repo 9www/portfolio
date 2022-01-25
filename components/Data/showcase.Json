@@ -91,7 +91,7 @@
     {
         "id": 5,
         "path": "camera-event",
-        "icon": "interactive.png",
+        "icon": "Interactive.png",
         "sentence": "X-Mas Camera event",
         "title": "Camera Event",
         "summary": "Take a photo and save it",
