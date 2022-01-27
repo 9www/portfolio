@@ -14,7 +14,7 @@
         .self-image {
             width: 500px;
             height: auto;
-            border-radius: 10px 0px 10px 0;
+            border-radius: 10px 0px 10px 0px;
         }
     }
 
@@ -90,7 +90,6 @@
                 }
                 .description-link {
                     font-weight: bold;
-                    //text-decoration: underline;
                 }
             }
             .description-bio {
@@ -98,6 +97,64 @@
                 text-align: justify;
                 letter-spacing: 1px;
                 line-height: 22px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 758px) {
+    .about-container {
+        margin-top: 130px;
+        flex-direction: column;
+
+        .left-container {
+            justify-content: center;
+            width: auto;
+
+            .self-image {
+                width: 95%;
+                border-radius: 10px 10px 10px 10px;
+            }
+        }
+        .right-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 0px 10px;
+            .title {
+                display: flex;
+                flex-direction: row;
+                font-size: 30px;
+                letter-spacing: 2px;
+                padding-bottom: 10px;
+                .name {
+                    font-size: 30px;
+                    margin-left: 10px;
+                }
+            }
+
+            .description-container {
+                width: 100%;
+
+                &:hover {
+                    border: 1px solid $secondary-color;
+                    padding-left: 35px;
+                    transition-duration: 0.3s;
+                    .description-selected {
+                        letter-spacing: 2px;
+                    }
+                }
+                .description {
+                    letter-spacing: 2px;
+                }
+            }
+            .description-text-container {
+                width: 100%;
+                .description-text,
+                .description-bio {
+                    letter-spacing: 0px;
+                }
             }
         }
     }
