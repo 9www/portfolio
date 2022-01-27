@@ -12,12 +12,7 @@
         padding: 0px 10%;
         align-items: center;
         background: none;
-        transition-duration: 0.3s;
         background: $light-color;
-        
-        &:hover {
-            transition-duration: 0.3s;
-        }
 
         .logo {
             height: 30px;
@@ -26,34 +21,43 @@
             font-size: 1.5rem;
             color: $primary-color;
         }
+        .nav-top {
+            .nav-link {
+                list-style: none;
+                line-height: 30px;
+                font-weight: bold;
+                height: 30px;
 
-        .nav-link {
-            list-style: none;
-            line-height: 30px;
-            font-weight: bold;
-            height: 30px;
-
-            .text-link {
-                display: inline-block;
-            }
-
-            .link {
-                display: inline-block;
-                padding: 0px 20px;
-                color: $primary-color;
-            }
-
-            .link-selected {
-                display: inline-block;
-                padding: 0px 20px;
-                color: $tertiary-color;
-            }
-
-            .icon-link-container {
-                display: none;
-
-                .icon-link {
+                .link {
+                    display: inline-block;
+                    padding: 0px 20px;
+                    color: $primary-color;
                 }
+
+                .text-link {
+                    display: inline-block;
+                }
+
+                .link-selected {
+                    display: inline-block;
+                    padding: 0px 20px;
+                    color: $tertiary-color;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 758px) {
+    .navbar-container {
+        .navbar {
+            height: 80px;
+            justify-content: center;
+            align-items: center;
+            .logo {
+            }
+            .nav-top {
+                display: none;
             }
         }
     }

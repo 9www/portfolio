@@ -7,8 +7,8 @@ function Card(props) {
                 <div className="card-top-container">
                     <img
                         className="card-icon"
-                        src={"./images/card-logo/" + props.icon}
-                        alt="logo"
+                        src={"./images/card-icon/" + props.icon}
+                        alt="icon"
                     ></img>
                     <div className="card-type">{props.type}</div>
                 </div>

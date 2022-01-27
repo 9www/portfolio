@@ -8,7 +8,7 @@
     .copyright-link-container {
         .copyright-link {
             padding: 0 10px;
-            .company-logo{
+            .company-logo {
                 width: 22px;
                 height: auto;
             }
@@ -17,5 +17,12 @@
     .copyright-text {
         color: $black-color;
         margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 758px) {
+    .copyright-container {
+        margin-top: 150px;
+        padding-bottom: 100px;
     }
 }
