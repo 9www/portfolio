@@ -32,6 +32,16 @@ function Copyright() {
                         alt="Instagram"
                     />
                 </a>
+                <a
+                    className="copyright-link"
+                    href="https://www.github.com/9www/"
+                >
+                    <img
+                        className="company-logo"
+                        src="./images/logo/Github.png"
+                        alt="Github"
+                    />
+                </a>
             </div>
             <div className="copyright-text">
                 {" "}

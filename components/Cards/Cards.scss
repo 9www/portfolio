@@ -1,4 +1,11 @@
-.cards-container{
+.cards-container {
     display: grid;
     grid-template-columns: 350px 350px 350px;
+}
+
+@media screen and (max-width: 758px) {
+    .cards-container {
+        display: grid;
+        grid-template-columns: none;
+    }
 }
