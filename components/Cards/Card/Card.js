@@ -15,7 +15,7 @@ function Card(props) {
                 <div className="card-container">
                     <div className="card-title">{props.title}</div>
                     <div className="card-sentence">{props.sentence}</div>
-                    <Link href={"/" + `${props.path}`} passHref>
+                    <Link href={"./" + `${props.path}`} passHref>
                         <div className="card-button">View More</div>
                     </Link>
                 </div>

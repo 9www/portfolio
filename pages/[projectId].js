@@ -1,9 +1,9 @@
 import { useRouter } from "next/router";
 import Head from "next/head";
-import showCaseData from "../../components/Data/showcase.Json";
-import Project from "./project/Project";
+import showCaseData from "../components/Data/showcase.Json";
+import Project from "./[projectId]/project/Project";
 
-const ProjectId = () => {
+export default function ProjectId() {
     const router = useRouter();
     const { projectId } = router.query;
 
@@ -65,6 +65,9 @@ const ProjectId = () => {
             {project}
         </div>
     );
-};
+}
 
-export default ProjectId;
+export async function getServerSideProps({ params }) {
+    let projectId = params.projectId;
+    return { props: { projectId } };
+}
