@@ -15,7 +15,6 @@ export default function ProjectId() {
         str = word.join(" ");
         return str;
     }
-
     const project = showCaseData.map((data, index) =>
         data.path == projectId ? (
             data.isImage == 0 ? (
@@ -66,7 +65,6 @@ export default function ProjectId() {
         </div>
     );
 }
-
 export async function getServerSideProps({ params }) {
     let projectId = params.projectId;
     return { props: { projectId } };
