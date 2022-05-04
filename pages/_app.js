@@ -3,7 +3,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import Copyright from "../components/Copyright/Copyright";
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, router }) {
     return (
         <div>
             <Head>
@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
                 />
             </Head>
             <Navbar />
-            <Component {...pageProps} />
+            <Component router={router} {...pageProps} />
             <Copyright />
         </div>
     );

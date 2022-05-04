@@ -45,6 +45,28 @@
     },
     {
         "id": 3,
+        "path": "bybit-dashboard",
+        "icon": "Web.png",
+        "sentence": "Recording Future's Profit & Loss",
+        "title": "Bybit Future dashboard",
+        "type": "Web Develop",
+        "summary": "Recording your Future's profit and loss",
+        "year": "2022",
+        "language": "Javascript",
+        "library": "Framework: React.js",
+        "description": "This mini future dashboard is getting Bybit API and you can record your total's realised & unrealised profit & loss and today's profit and loss.",
+        "isImage": 1,
+        "media": [
+            {
+                "link": "noVideo"
+            },
+            {
+                "link": "./portfolio/images/Dashboard.jpg"
+            }
+        ]
+    },
+    {
+        "id": 4,
         "path": "bug-man",
         "icon": "Game.png",
         "sentence": "Wingo's FYP - 2D Pixel Game",
@@ -67,7 +89,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "path": "the-cude",
         "icon": "Game.png",
         "sentence": "3D Puzzle Game",
@@ -89,7 +111,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 6,
         "path": "camera-event",
         "icon": "Interactive.png",
         "sentence": "X-Mas Camera event",
@@ -111,7 +133,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 7,
         "path": "is-it-sun",
         "icon": "NewMedia.png",
         "sentence": "New Meida Artwork",
@@ -131,5 +153,5 @@
                 "link": "noImage"
             }
         ]
-    }
+    }    
 ]
