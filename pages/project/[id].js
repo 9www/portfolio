@@ -1,15 +1,12 @@
-import showCaseData from "../../../components/Data/showcase.Json";
+import showCaseData from "../../components/Data/showcase.Json";
 import { useRouter } from "next/router";
 import { useMemo } from "react";
-import Head from "next/head";
 
 function Project(props) {
     const router = useRouter();
-    const { projectId } = router.query;
+    const { id } = router.query;
 
-    const data = useMemo(() =>
-        showCaseData.find((data) => data.path == projectId)
-    );
+    const data = useMemo(() => showCaseData.find((data) => data.path == id));
 
     console.log("data", data);
 
