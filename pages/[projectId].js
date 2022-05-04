@@ -65,7 +65,3 @@ export default function ProjectId() {
         </div>
     );
 }
-// export async function getServerSideProps({ params }) {
-//     let projectId = params.projectId;
-//     return { props: { projectId } };
-// }
