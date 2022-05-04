@@ -1,4 +1,4 @@
-import showCaseData from "../../components/Data/showcase.Json";
+import showCaseData from "../../../components/Data/showcase.Json";
 import { useRouter } from "next/router";
 import { useMemo } from "react";
 import Head from "next/head";
