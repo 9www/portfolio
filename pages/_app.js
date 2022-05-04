@@ -2,6 +2,7 @@ import "../styles/globals.scss";
 import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import Copyright from "../components/Copyright/Copyright";
+
 function MyApp({ Component, pageProps }) {
     return (
         <div>
