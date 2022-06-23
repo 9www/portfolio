@@ -1,6 +1,50 @@
 [
     {
         "id": 1,
+        "path": "central-market",
+        "icon": "Web.png",
+        "sentence": "central-market website",
+        "title": "Central Markert",
+        "summary": "Welcome to New Central Market",
+        "type": "Web Develop",
+        "year": "2021-2022",
+        "language": "Javascript",
+        "library": "Framework: React.js",
+        "description": "This website is description a New Central Market. Central Market was rebuilded by government, also, this website was builded. I using modern framework - React.js and different library, this can easily to develop and maintain frontend part, also, I have make different text and some css animation in this website.",
+        "isImage": 1,
+        "media": [
+            {
+                "link": "noVideo"
+            },
+            {
+                "link": "./portfolio/images/CentralMarket.jpg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "path": "samsung-clubs",
+        "icon": "Web.png",
+        "sentence": "Get S dollars & offers",
+        "title": "Samsung Clubs Website",
+        "summary": "Register different samsung models to get offers and S dollars",
+        "type": "Web Develop",
+        "year": "2021-2022",
+        "language": "Javascript",
+        "library": "Framework: Vue.js",
+        "description": "These websites are about registration different samsung's models to get offers and S dollars. User can register samsung models and get some highly quality offers and S dollars, I make sure the clients and users can fastily and easily finished registration in these websites, so I quickly develop and maintain Frontend part of different models's clubs registration websites, (Including S22 / Tabs8 / Flip3 / Fold3 / Watch4 / Buds2 / Book2).",
+        "isImage": 1,
+        "media": [
+            {
+                "link": "noVideo"
+            },
+            {
+                "link": "./portfolio/images/SamsungClubs.jpg"
+            }
+        ]
+    },
+    {
+        "id": 3,
         "path": "web-rebranding",
         "icon": "Web.png",
         "sentence": "Enhance Website Performance",
@@ -22,7 +66,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 4,
         "path": "web-iframe",
         "icon": "Web.png",
         "sentence": "Cosmetic Website iframe Project",
@@ -44,7 +88,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 5,
         "path": "bybit-dashboard",
         "icon": "Web.png",
         "sentence": "Recording Future's Profit & Loss",
@@ -66,7 +110,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 6,
         "path": "bug-man",
         "icon": "Game.png",
         "sentence": "Wingo's FYP - 2D Pixel Game",
@@ -89,7 +133,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 7,
         "path": "the-cude",
         "icon": "Game.png",
         "sentence": "3D Puzzle Game",
@@ -111,7 +155,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 8,
         "path": "camera-event",
         "icon": "Interactive.png",
         "sentence": "X-Mas Camera event",
@@ -153,5 +197,5 @@
                 "link": "noImage"
             }
         ]
-    }    
+    }
 ]
