@@ -1,11 +1,33 @@
 [
     {
+        "id": 0,
+        "path": "samsung-com",
+        "icon": "Web.png",
+        "sentence": "Samsung.com",
+        "title": "Samsung website",
+        "summary": "Samsung / Hong Kong / Website",
+        "type": "Web Develop",
+        "year": "2021-2022",
+        "language": "Javascript",
+        "library": "None",
+        "description": "I maintain and update Samsung.com/hk with my senior frontend developer. Make sure Hong Kong version is match of global or other area version, and no any bug for the Samsung.com website. We will using basic Html, CSS and Javascript, and check different area version makesure the user expereice is the best. Sometime, we will add some litte functions and some changes for our Hong Kong version.",
+        "isImage": 1,
+        "media": [
+            {
+                "link": "noVideo"
+            },
+            {
+                "link": "./portfolio/images/Samsung.jpg"
+            }
+        ]
+    },
+    {
         "id": 1,
         "path": "central-market",
         "icon": "Web.png",
         "sentence": "New Central Market website",
         "title": "Central Markert",
-        "summary": "Welcome to New Central Market",
+        "summary": "New Central Market / Rebuilding / Website",
         "type": "Web Develop",
         "year": "2021-2022",
         "language": "Javascript",
@@ -27,12 +49,12 @@
         "icon": "Web.png",
         "sentence": "Get S dollars & offers",
         "title": "Samsung Clubs Website",
-        "summary": "Register different samsung models to get offers and S dollars",
+        "summary": "Samsung / Clubs / Registration",
         "type": "Web Develop",
         "year": "2021-2022",
         "language": "Javascript",
         "library": "Framework: Vue.js",
-        "description": "These websites are about registration different samsung's models to get offers and S dollars. User can register samsung models and get some highly quality offers and S dollars, I make sure the clients and users can fastily and easily finished registration in these websites, so I quickly develop and maintain Frontend part of different models's clubs registration websites, (Including S22 / Tabs8 / Flip3 / Fold3 / Watch4 / Buds2 / Book2).",
+        "description": "These websites are about registration different Samsung's models to get offers and S dollars. User can register samsung models and get some highly quality offers and S dollars, I make sure the clients and users can fastily and easily finished registration in these websites, so I quickly develop and maintain Frontend part of different models's clubs registration websites, (Including S22 / Tabs8 / Flip3 / Fold3 / Watch4 / Buds2 / Book2).",
         "isImage": 1,
         "media": [
             {
