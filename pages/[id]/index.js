@@ -1,6 +1,7 @@
 import showCaseData from "../../components/Data/showcase.Json";
 import { useRouter } from "next/router";
 import { useMemo } from "react";
+import Head from "next/head";
 
 function Project(props) {
     const router = useRouter();
@@ -8,10 +9,12 @@ function Project(props) {
 
     const data = useMemo(() => showCaseData.find((data) => data.path == id));
 
-    console.log("data", data);
-
     function titleSwitchCase(str) {
-        const word = str.split("-");
+        if (typeof str === "string") {
+            const word = str.split("-");
+        } else {
+            return;
+        }
         for (var i = 0; i < word.length; i++) {
             word[i] = word[i].charAt(0).toUpperCase() + word[i].slice(1);
         }
@@ -34,6 +37,9 @@ function Project(props) {
 
     return (
         <div>
+            <Head>
+                <title>Wingo - {titleSwitchCase(id)}</title>
+            </Head>
             <div className="project-container">
                 {data?.isImage ? (
                     <img

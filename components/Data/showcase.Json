@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "path": "samsung-com",
+        "path": "samsung",
         "icon": "Web.png",
         "sentence": "Samsung.com",
         "title": "Samsung website",
@@ -199,7 +199,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 9,
         "path": "is-it-sun",
         "icon": "NewMedia.png",
         "sentence": "New Meida Artwork",
