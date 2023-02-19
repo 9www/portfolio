@@ -17,7 +17,7 @@
         "link": "noVideo"
       },
       {
-        "link": "./portfolio/images/GeiWork.jpg"
+        "link": "/portfolio/images/GeiWork.jpg"
       }
     ]
   },
@@ -39,7 +39,7 @@
         "link": "noVideo"
       },
       {
-        "link": "./portfolio/images/Samsung.jpg"
+        "link": "/portfolio/images/Samsung.jpg"
       }
     ]
   },
@@ -61,7 +61,7 @@
         "link": "noVideo"
       },
       {
-        "link": "./portfolio/images/CentralMarket.jpg"
+        "link": "/portfolio/images/CentralMarket.jpg"
       }
     ]
   },
@@ -83,7 +83,7 @@
         "link": "noVideo"
       },
       {
-        "link": "./portfolio/images/SamsungClubs.jpg"
+        "link": "/portfolio/images/SamsungClubs.jpg"
       }
     ]
   },
@@ -105,7 +105,7 @@
         "link": "noVideo"
       },
       {
-        "link": "./portfolio/images/KontecRebranding.jpg"
+        "link": "/portfolio/images/KontecRebranding.jpg"
       }
     ]
   },
@@ -127,7 +127,7 @@
         "link": "noVideo"
       },
       {
-        "link": "./portfolio/images/Cosmetic.jpg"
+        "link": "/portfolio/images/Cosmetic.jpg"
       }
     ]
   },
@@ -149,7 +149,7 @@
         "link": "noVideo"
       },
       {
-        "link": "./portfolio/images/Dashboard.jpg"
+        "link": "/portfolio/images/Dashboard.jpg"
       }
     ]
   },
@@ -216,7 +216,7 @@
         "link": "noVideo"
       },
       {
-        "link": "./portfolio/images/InteractiveCamera.jpg"
+        "link": "/portfolio/images/InteractiveCamera.jpg"
       }
     ]
   },
